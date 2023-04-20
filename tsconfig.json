@@ -11,43 +11,7 @@
     "skipLibCheck": true,
     "experimentalDecorators": true
   },
-  "plugins": [
-    {
-      "transform": "typescript-transform-paths"
-    }
-  ],
   "ts-node": {
     "esm": true
   }
 }
-
-// {
-//   "compilerOptions": {
-//     "target": "es2020",
-//     "module": "CommonJS",
-//     "outDir": "./dist",
-//     "noImplicitAny": true,
-//     "emitDecoratorMetadata": true,
-//     "experimentalDecorators": true,
-//     "esModuleInterop": true,
-//     "rootDirs": [
-//       "src",
-//       "tests"
-//     ],
-//     "baseUrl": "src",
-//     "paths": {
-//       "@/*": [
-//         "*"
-//       ]
-//     },
-//     "plugins": [
-//       {
-//         "transform": "typescript-transform-paths"
-//       }
-//     ]
-//   },
-//   "include": [
-//     "src",
-//     "tests"
-//   ]
-// }
